@@ -1,5 +1,5 @@
 {
-    "name": "jaffarhussain1011/laravel-guesty-api",
+    "name": "jaffarhussain1011/laravel-guesty",
     "description": "Laravel Integration With Guesty API",
     "type": "library",
     "require": {
