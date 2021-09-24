@@ -1,0 +1,28 @@
+{
+    "name": "jaffarhussain1011/laravel-guesty-api",
+    "description": "Laravel Integration With Guesty API",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^8",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "jaffarhussain1011\\Guesty\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jaffar Hussain",
+            "email": "jaffarhussain1011@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+          "providers": [
+            "jaffarhussain1011\\Guesty\\ServiceProvider"
+          ]
+        }
+      }
+}
